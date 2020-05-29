@@ -1,0 +1,23 @@
+While run async_data_load.py, console print:  
+
+loading mnist dataset from ./work/mnist_json.gz
+mnist dataset load done
+Num of train dataset: 50000
+2020-05-27 17:42:06,761-WARNING: DygraphDataLoader reader thread raised an exception.
+Traceback (most recent call last):
+  File "async_data_load.py", line 18, in <module>
+    for i, data in enumerate(data_loader):
+  File "D:\Anaconda\envs\paddle\lib\site-packages\paddle\fluid\reader.py", line 804, in __next__
+    return self._reader.read_next_var_list()
+paddle.fluid.core_avx.EnforceNotMet:
+
+--------------------------------------------
+C++ Call Stacks (More useful to developers):
+--------------------------------------------
+Windows not support stack backtrace yet.
+
+----------------------
+Error Message Summary:
+----------------------
+Error: Blocking queue is killed because the data reader raises an exception
+  [Hint: Expected killed_ != true, but received killed_:1 == true:1.] at (D:\1.8.0\paddle\paddle/fluid/operators/reader/blocking_queue.h:141)
