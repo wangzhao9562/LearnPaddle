@@ -1,0 +1,36 @@
+# Network Structure  
+Single layer network -> Multi-layer network -> Activated function -> CNN  
+  
+## Classic full connect model  
+epoch: 0, batch: 0, loss is : [21.658619]  
+epoch: 0, batch: 200, loss is : [5.11427]  
+epoch: 0, batch: 400, loss is : [3.969593]  
+epoch: 1, batch: 0, loss is : [3.7090266]  
+epoch: 1, batch: 200, loss is : [3.7023687]  
+epoch: 1, batch: 400, loss is : [3.9705381]  
+epoch: 2, batch: 0, loss is : [2.6544824]  
+epoch: 2, batch: 200, loss is : [3.2115598]  
+epoch: 2, batch: 400, loss is : [3.33536]  
+epoch: 3, batch: 0, loss is : [2.2471032]  
+epoch: 3, batch: 200, loss is : [2.054483]  
+epoch: 3, batch: 400, loss is : [1.82879]  
+epoch: 4, batch: 0, loss is : [2.5010285]  
+epoch: 4, batch: 200, loss is : [2.0370564]  
+epoch: 4, batch: 400, loss is : [2.6775947]  
+  
+## CNN model  
+epoch: 0, batch: 0, loss is: [40.068424]  
+epoch: 0, batch: 200, loss is: [8.027335]  
+epoch: 0, batch: 400, loss is: [8.258713]  
+epoch: 1, batch: 0, loss is: [3.475906]  
+epoch: 1, batch: 200, loss is: [2.1165547]  
+epoch: 1, batch: 400, loss is: [2.644969]  
+epoch: 2, batch: 0, loss is: [2.1483636]  
+epoch: 2, batch: 200, loss is: [2.6636364]  
+epoch: 2, batch: 400, loss is: [1.8878179]  
+epoch: 3, batch: 0, loss is: [2.060671]  
+epoch: 3, batch: 200, loss is: [1.3212947]  
+epoch: 3, batch: 400, loss is: [1.4160582]  
+epoch: 4, batch: 0, loss is: [1.2233758]  
+epoch: 4, batch: 200, loss is: [1.3616914]  
+epoch: 4, batch: 400, loss is: [1.147942]  
